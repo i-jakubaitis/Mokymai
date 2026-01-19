@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .margin-bottom-2{
+            margin-bottom: 20px;
+            margin-right: 29px;
+            margin-left: 29px;
+        }
+        .padding-example {
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-right: 15px;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        h3{
+            text-align: center;
+        }
+        .wide-element{
+            /* minimalus ir maximalus plociai, pravercia jeigu naudojama telefone */
+            min-width: 200px;
+            max-width: 400px;
+            background-color: lightgray;
+            min-height: 100px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+            color: white;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Blokiniai elementai uzima pilna ekrano ploti -->
+    <div>Blokinis elementas</div>
+    <div>Blokinis elementas</div>
+    <!-- Inline elementai uzima tik tiek vietos kiek reikia -->
+    <i>Inline elementas</i>
+    <i>Inline elementas</i>
+
+    <h3>My cool title</h3>
+
+    <div class="wide-element margin-bottom-2 padding-example">
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    </div>
+      <div>
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    </div>
+    <div>
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    </div>
+        <hr />
+        <button class="padding-example">Mygtukas</button>
+
+    <nav class="navbar">
+            <a href="index.html">Pagrindinis puslapis</a>
+            <a href="gallery.html">Galerija</a>
+            <a href="puslapis.html">Apie mus</a>
+    </nav>
+    <div class="box"></div>
+
+</body>
+</html>

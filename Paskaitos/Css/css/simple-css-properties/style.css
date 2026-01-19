@@ -1,0 +1,12 @@
+.green {
+    color: green
+}
+h4 {
+    color:magenta
+}
+#pagrindinis-title{
+    color: yellow
+}
+.stylized-list li:nth-child(even) {
+    background-color: aqua;
+}

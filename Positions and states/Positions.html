@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid red;
+        }
+        .fixed {
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+        }
+        .relative {
+            position: relative;
+            top: 350px;
+            left: 150px;
+            /* Prioritetas kuri atvaizduoti priekyje lyginant su kitais elementais, didesnis skaicius, didesnis prioritetas (-1 kelia i gala) */
+            z-index: -1;
+        }
+        .absolut-container {
+            position: relative;
+            height: 200px;
+            background: lightgray;
+        }
+        .absolute {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: lightblue;
+            padding: 15px 20px;
+        }
+        .sticky {
+            position: sticky;
+            top: 0px;
+            z-index: 2;
+        }
+        /* busenos selektorius. kai pelytes zymeklis uzvedamas ant target elemento */
+        /* geriau deti hover per klases tai kaip pvz: my.navigation */
+        nav:hover {
+            background-color: orange;
+            /* grab, pointer ir panasus dalykai */
+            cursor: grab;
+        }
+        .box:hover {
+            /* display: none; (padaro kad dingtu apskritai) */
+            background-color: red;
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <nav class="sticky">
+        <a href="#">Left Link</a>
+        <a href="#">Right Link</a>
+        <a href="#">Center Link</a>
+    </nav>
+    <div class="box fixed">
+        This is a fixed box.
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="box relative">
+        This is a relative box.
+    </div>
+    <div class="absolut-container">
+        <div class="absolute box">This is an absolute box (butina relative konteineris, kitaip ims ekrana)</div>
+    </div>
+    <div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur.
+    </p>
+    </div>
+
+</body>
+</html>

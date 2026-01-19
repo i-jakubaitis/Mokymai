@@ -1,0 +1,20 @@
+## Pirma paskaita
+
+HTML
+
+
+Paspausti šauktuką, kad iškviesti paruoštą tekstą
+
+<div> - nauja eilutė </div>
+<hr /> - Horizontali juosta 
+<p> - paragrafas </p>
+
+<b> - bold (paryškina) </b>
+
+<i> - italica (pasviręs tekstas) </i>
+
+<u> - underline </u>
+
+Galimos kombinacijos:
+<u><i> Sukombinuoti stiliai </u></i>
+

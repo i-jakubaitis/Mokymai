@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igno Puslapis - Pagrindinis meniu</title>
+    <!-- Style tag'e apsiraso CSS (Cascading Style Sheetas) -->
+    <style>
+        /* Selektorius */
+        /* Stilius */
+
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        body {
+            font-size: 20px;
+        }
+        .small-text {
+            font-size: 10px; color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Advanced HTML Tags</h1>
+    <p> Paprastas tekstas</p>
+
+    <hr />
+    <h3>Sąrašai</h3>
+
+    <!-- Unordered List-->
+     <ul>
+        <li>Pienas</li>
+        <li class="small-text"> Alaus</li>
+        <li>Duona</li>
+        <li>3x Svogunai</li>
+     </ul>
+     <!-- Ordered List -->
+     <ol
+     start="2" 
+     type="I"
+     >
+        <li>1 punktas</li>
+        <li>2 punktas</li>
+        <li>3 punktas</li>
+     </ol>
+     <hr />
+
+     <!-- Lenteles -->
+
+     <table>
+        <!-- Table Row -->
+        <tr>
+            <!-- Table data -->
+             <!-- Colspan atributas nurodo per kiek stulpeliu eina lenteles domuo -->
+              <!-- Rowspan atributas nustato per kiek eiluciu eina lenteles domuo -->
+               <!-- th - Table Header -->
+             <th>
+                Stulpelis 1
+            </th>
+             <th style="color: blue">Stulpelis 2</th>
+             <th style="color: brown">Stulpelis 3</th>
+             <th>Stulpelis 4</th>
+        </tr>
+        <tr>
+            <!-- Table data -->
+             <td>Stulpelis 1</td>
+             <td colspan="2"> </td>
+             <td>Stulpelis 4</td>
+        </tr>
+        <tr>
+            <!-- Table data -->
+             <td>Stulpelis 1</td>
+             <td>Stulpelis 2</td>
+             <td>Stulpelis 3</td>
+             <td>Stulpelis 4</td>
+        </tr>
+        <tr>
+            <!-- Table data -->
+             <td>Stulpelis 1</td>
+             <td>Stulpelis 2</td>
+             <td>Stulpelis 3</td>
+             <td>Stulpelis 4</td>
+        </tr>
+     </table>
+
+     <hr />
+
+     <h3>Images</h3>
+
+     <img src="https://imgs.search.brave.com/W8huaY0L4tNaw95TG6PPzwdMMuCUKOb5j8Dodew9Tr4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTQy/NzE0MzExL3Bob3Rv/L2NyZWVweS1jYXQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWZNWWZnaFJPN2pR/TEd0SWNCQ3JiZGpW/RkZLLUQ1UXZQUG5w/SlRwcmEtTm89"
+        alt="Placeholder Image"
+        />
+        <!-- Kazkas ne taip ir neveikia, reikia issiaiskinti kaip sukurti serveri nuotraukai.  -->
+        <img
+        src="127.0.0.1:5500/Users/ignas/Desktop/BIT%20kursai/Akimirka-125.jpg"
+        alt="Placeholder"
+        />
+        <hr />
+
+        <button>Mygtukas</button>
+
+        <hr />
+        
+        <audio src="https://file-examples.com/storage/feb061f227695e9729ecea0/2017/11/file_example_MP3_700KB.mp3" controls>
+        </audio>            
+
+    </body>
+</html>

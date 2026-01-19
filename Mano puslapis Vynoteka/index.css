@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	font-family: Comissioner, sans-serif;
+	font-size: 14px;
+}
+header .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-white {
+    color: white
+}
+.text-black {
+	color: black;
+}
+.text-nostyle {
+    text-decoration: none;
+}
+
+.bg-vynoteka {
+    background-color: rgb(167,41,91);
+}
+.py-1 {
+	padding: 10px 0;
+}
+.py-2 {
+	padding: 20px 0;
+}
+
+.pl-2 {
+	padding-left: 20px;
+}
+.nav-links {
+	display: flex;
+	gap: 12px;
+	min-height: 30px;
+	/* justify-content: ; */
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-button {
+	padding: 10px 0;
+	padding-right: 20px;
+}
+.border-bottom {
+	border-bottom: 1px solid grey;
+}
+.button-leidiniai {
+	background-color: rgb(240,241,243);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.wider-button {
+	font-size: 20px;
+}
+.bold {
+	font-weight: bold;
+}
+.search-container {
+	width: 400px;
+	margin-left: auto;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+.search-input {
+
+	height: 30px;
+	width: 400px;
+	padding: 10px;
+	margin: 0;
+  	border: 0;
+	border-radius: 5px;
+  	font-size: 16px;
+	background-color: #f1f1f1;
+}
+.search-button {
+  	cursor: pointer;
+  	height: 35px;
+  	width: 65px;
+  	border: none;
+	border-radius: 5px;
+  	border-left: none;
+  	margin-left: -75px;
+  	background: rgb(0,200,150);
+}
+.search-icon {
+	margin-left: -195px;
+}
+
+.category-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	bottom: 20px;
+}
+.category-button {
+	background-color: white;
+	border: none;
+}
+
+.category-button:hover {
+	cursor: pointer;
+	background-color: rgb(167,41,91);
+	color: white;;
+}
+
+.purple {
+	color: rgb(167,41,91);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lentele</title>
+    <style>
+        table, th, td {
+  border: 1px solid grey;
+  width: 1000px;
+  height: 50px;
+  border-collapse: collapse;
+  text-align: left;
+  
+}
+th {
+    color: white;
+}
+
+th:nth-child(even) {
+  background-color: lightblue;
+}
+th:nth-child(odd) {
+    background-color: orange;
+}
+tr:nth-child(2),
+tr:nth-child(3),
+tr:nth-child(4),
+tr:nth-child(8),
+tr:nth-child(9),
+tr:nth-child(10)
+{
+    background-color: lightgray;
+}
+    </style>
+</head>
+<body>
+    <h1>Various Departments Multi Level Growth Table</h1>
+    <table>
+        <tr>
+            <th>Departments</th>
+            <th>Marketing</th>
+            <th>Operations</th>
+            <th>Finance</th>
+            <th>Text Here</th>
+        </tr>
+        <tr>
+            <td rowspan="3" ><b>Top Level</b></td>
+            <td>Tom Cruise (Marketing Director)</td>
+            <td>Nick Fury (Operations Director)</td>
+            <td>Bella (Finance Director)</td>
+            <td>Text here</td>
+        </tr>
+        <tr>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+        </tr>
+        <tr>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+        </tr>
+        <tr>
+            <td rowspan="3" ><b>Middle Level</b></td>
+            <td>Adam (Marketing Manager)</td>
+            <td>Nathaniel (Operations Manager)</td>
+            <td>Billy (Finance Manager)</td>
+            <td>Text here</td>
+        </tr>
+        <tr>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+        </tr>
+        <tr>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            </tr>
+            <tr>
+            <td rowspan="3" ><b>Lower Level</b></td>
+            <td>Brenda (Junior executive)</td>
+            <td>Chris (Junior executive)</td>
+            <td>Jack Doss (Junior executive)</td>
+            <td>Text here</td>
+        </tr>
+        <tr>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+        </tr>
+        <tr>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            <td><i>Text here</i></td>
+            </tr>
+    </table>
+</body>
+</html>

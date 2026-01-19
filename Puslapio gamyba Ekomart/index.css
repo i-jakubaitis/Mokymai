@@ -1,0 +1,219 @@
+body {
+	margin: 0;
+	font-family: Barlow, sans-serif;
+	font-size: 16px;
+}
+.container {
+	max-width: 1300px;
+
+	/* Pritaiko automatinę paraštę, kuri turinį išcentruoja kai yra didesnis ekranas nei 1200px */
+	margin: 0 auto;
+}
+
+.bg-light-green {
+	/* RedGreenBlue - spalvų kodo formatas */
+	background-color: rgb(97, 157, 36);
+}
+
+.text-nostyle {
+	text-decoration: none;
+}
+
+.text-white {
+	color: white;
+}
+.text-black {
+	color: black;
+}
+
+.text-sm {
+	font-size: 14px;
+}
+
+.text-md {
+	font-size: 16px;
+}
+
+.text-lg {
+	font-size: 20px;
+}
+
+.text-xl {
+	font-size: 24px;
+}
+
+.py-1 {
+	padding: 10px 0;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.border-bottom {
+	border-bottom: 1px solid rgb(231, 230, 230);
+}
+
+.left-border-only {
+	border-left: 1px solid rgb(231, 230, 230);
+}
+
+.horizontal-borders-only {
+	border-left: 1px solid rgb(231, 230, 230);
+	border-right: 1px solid rgb(231, 230, 230);
+}
+
+.nav-links {
+	display: flex;
+	gap: 12px;
+	min-height: 45px;
+	/* justify-content: ; */
+	align-items: center;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.nav-button {
+	padding: 15px 0;
+}
+
+.nav-button.wider {
+	padding: 15px;
+}
+
+.text-dark {
+	color: #74787c;
+}
+
+.centered-vertically {
+	display: flex;
+	align-items: center;
+}
+
+.text-dark-green {
+	color: rgb(34, 87, 12);
+}
+
+.pl-2 {
+	padding-left: 20px;
+}
+#section-3 {
+	display: flex;
+	justify-content: space-between;
+	padding: 31px;
+}
+.stylish-button {
+	background-color: lightgrey;
+	border: none;
+	border-radius: 5px;
+	padding: 13px 20px;
+	font-weight: bold;
+
+}
+.stylish-button:hover {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+#section-3 .middle-section {
+	display: flex;
+	gap: 10px
+}
+#section-3 .middle-section input:focus {
+	outline: darkgreen solid 1px;
+}
+#section-3 .middle-section input{
+	width: 450px;
+	border: none;
+	background-color: lightgrey;
+	border-radius: 5px;
+	padding-left: 20px;
+	height: 100%;
+}
+.input-container {
+	display: inline-block;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.input-container button {
+	position: absolute;
+	right: 2px;
+	height: 90%;
+	
+}
+.white-btn {
+	font-size: 15px;
+	color: rgb(37, 37, 37);
+	border: lightgrey solid 1px;
+	background-color: white;
+	padding: 13px 20px;
+	border-radius: 5px;
+}
+#section-3 .last-section {
+	display: flex;
+	gap: 10px;
+}
+
+.white-btn i {
+	margin-right: 7px;
+}
+
+.white-btn:hover {
+	background-color: green;
+	color: white;
+	cursor: pointer;
+}
+.fa-count-container {
+	position: relative;
+}
+.fa-count-container span {
+	position: absolute;
+	top: -12px;
+	right: -12px;
+	width: 18px;
+	height: 18px;
+	color: white;
+	background-color: darkgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	font-size: 8px;
+}
+.sticky-section {
+	position: sticky;
+	top: 0px;
+	background-color: rgb(243,244,246);
+	z-index: 100;
+	width: 100%;
+}
+.sticky-section nav {
+	gap: 45px;
+}
+
+.discount-button {
+	font-weight: bold;
+	background-color: rgb(98,157,35);
+	border: none;
+	height: 100%;
+	color: white;
+	padding: 20px;
+}
+.discount-button span {
+	font-weight: bold;
+	background-color: white;
+	padding: 5px;
+	color:rgb(98,157,35);
+	border-radius: 15px;
+}
+.discount-button:hover {
+	cursor: pointer;
+}
+.sticky-section .container {
+	display: flex;
+	justify-content: space-between;
+}

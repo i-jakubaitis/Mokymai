@@ -1,0 +1,81 @@
+.center {
+    text-align: center;
+}
+
+/* Invoice viršutinė dalis */
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+/* Pardavėjo ir pirkėjo dalies nustatymai */
+.parties {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+/* Smulkaus teksto ir linijų nustatymui */
+.line {
+    font-size: x-small;
+    border-top: 1px solid black;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.header-line {
+    font-size: medium;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.oneline {
+    border-bottom: 1px solid black;
+    margin-top: 0px;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 20px;
+}
+/* Lentelės nustatymai */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 20px;
+}
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    text-align: right;
+    padding-right: 5px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Parašų nustatymai */
+.signature-box {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    align-items: center;
+}
+.signature {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-bottom: 1px solid black;
+    height: 20px;
+    margin-top: 5px;
+}
