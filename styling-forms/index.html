@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .reg-form {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .reg-form > div {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .reg-form > div > input {
+      width: 60%;
+      height: 30px;
+      outline: none;
+    }
+
+    .reg-form > div > label {
+      width: 30%;
+    }
+
+    .reg-form > .terms > label {
+      width: auto;
+    }
+    .reg-form > .terms > input {
+      width: auto;
+      margin-right: 20px;
+    }
+  </style>
+  <body>
+    <form class="reg-form">
+      <div>
+        <label for="full-name">Jūsų vardas</label>
+        <input type="text" name="full-name" id="full-name" />
+      </div>
+      <div>
+        <label for="dob">Gimimo metai</label>
+        <input type="date" name="dob" id="dob" />
+      </div>
+      <div>
+        <label for="email">El. paštas</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="password">Slaptažodis</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div class="terms">
+        <input type="checkbox" id="accept-terms" />
+        <label for="accept-terms"
+          >Sutinku su <a href="#">Sąlygomis</a> ir
+          <a href="#">Privatumo politika</a></label
+        >
+      </div>
+    </form>
+  </body>
+</html>

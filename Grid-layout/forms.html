@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Form elementas yra skirtas rinkti ir išsiųsti surinktus duomenis iš puslapio -->
+    <form action="localhost:3000">
+      <!-- Ivesties elementas ir Inline elementas -->
+      <!-- Teksto ivestis -->
+      <div>
+        <label for="name">Iveskite savo varda</label>
+        <input id="name" type="text" />
+      </div>
+      <!-- Skaiciaus ivestis -->
+      <div>
+        <label for="age">Iveskite savo amziu</label>
+        <input id="age" type="number" />
+      </div>
+      <!-- Skirtas telefono numeriui -->
+      <div>
+        <label for="phone-number">Telefono numeris</label>
+        <input id="phone-number" type="tel" />
+      </div>
+      <input type="submit" value="Issiusti forma" />
+      <!-- arba galima naudoti ir button -->
+      <button type="submit">Issiusti</button>
+    </form>
+  </body>
+</html>
